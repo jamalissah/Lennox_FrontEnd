@@ -21,7 +21,7 @@
         },
         methods: {
             fetchItems(){
-                fetch('http://localhost:5959/items')
+                fetch('https://lennox-beauty-42de7c38e804.herokuapp.com/api')
                     .then(response =>{
                         if(!response.ok){
                             throw new Error(`Error! HTTP Status: ${response.status}`);
